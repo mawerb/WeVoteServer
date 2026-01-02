@@ -992,6 +992,7 @@ def voter_email_address_retrieve_for_api(voter_device_id):  # voterEmailAddressR
     :param voter_device_id:
     :return:
     """
+    print("IN voter_email_address_retrieve_for_api")
     email_address_list_found = False
     status = ""
     success = True
